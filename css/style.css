@@ -349,3 +349,6 @@ footer p {
     text-align: center;
 }
 
+p .twitter-share-button {
+    margin-bottom: -7px;
+}
