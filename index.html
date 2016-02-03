@@ -11,6 +11,23 @@
   </head>
 
   <body>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '915209068547528',
+          xfbml      : true,
+          version    : 'v2.5'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 
        <!-- Fixed navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -79,6 +96,7 @@
                 <h3>Mental Toughness</h3>
                 <p>Ever wondered what makes someone a good leader, a good athlete, or a good competitor? Why do some people accomplish their goals while others fail? Why are some people more successful than others?</p>
                 <p><a href="post.html" class="btn btn-primary" role="button">Read post</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
+                  
               </div>
             </div>
           </div>
@@ -106,6 +124,13 @@
                 <h3>Mental Toughness</h3>
                 <p>Ever wondered what makes someone a good leader, a good athlete, or a good competitor? Why do some people accomplish their goals while others fail? Why are some people more successful than others?</p>
                 <p><a href="post.html" class="btn btn-primary" role="button">Read post</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
+                <div
+                  class="fb-like"
+                  data-share="true"
+                  data-width="450"
+                  data-show-faces="true">
+                </div>
+
               </div>
             </div>
           </div>
