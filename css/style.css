@@ -22,7 +22,7 @@ body {
    Some Style Overrides on Bootstrap
   ********************************** */
 .navbar-inverse {
-  background: rgba(62, 195, 246, 0);
+  background: rgba(118, 176, 194, 0);
   border-bottom: none;
 }
 
@@ -68,7 +68,8 @@ body {
            Big Logo
   ********************************** */
 .big-logo-row {
-  background: gold;
+  background: #EC5954;
+    color: white;
 }
 .big-logo-row .big-logo-container {
   padding-top: 50px;
@@ -130,7 +131,7 @@ body {
            Big Logo
   ********************************** */
 .post-header-row {
-    background-color: gold;
+    background-color: #EC5954;
 /*    background-image: url('../img/post-bg.jpg');*/
     background-attachment: scroll;
     background-size: cover;
