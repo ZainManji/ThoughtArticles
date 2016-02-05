@@ -353,3 +353,8 @@ footer p {
 p .twitter-share-button {
     margin-bottom: -5px;
 }
+
+.btn-primary {
+    background-color: #76b0ff;
+    border-color: #76b0ff;
+}
