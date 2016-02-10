@@ -119,13 +119,13 @@ body {
 }
 @media (min-width: 768px) {
   .big-logo-row h1 {
-    font-size: 9em;
+    font-size: 7.5em;
     padding-bottom: 30px;
   }
 }
 @media (min-width: 1200px) {
   .big-logo-row h1 {
-    font-size: 12em;
+    font-size: 7.5em;
   }
 }
 
