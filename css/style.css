@@ -41,7 +41,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: black;
+  color: white;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -68,7 +68,10 @@ body {
            Big Logo
   ********************************** */
 .big-logo-row {
-  background: #EC5954;
+/*    background: #EC5954;*/
+    background-image: url('../img/pattern-background-2.jpg');
+    background-attachment: scroll;
+    background-size: cover;
     color: white;
 }
 .big-logo-row .big-logo-container {
@@ -81,7 +84,7 @@ body {
 }
 
 .big-logo-row h2 {
-  font-size: 2.5em;
+  font-size: 1.5em;
   margin: 0;
   padding: 0 0 15px 0;
 }
@@ -101,7 +104,7 @@ body {
   }
 
   .big-logo-row h2 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 @media (min-width: 500px) {
